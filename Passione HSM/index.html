@@ -1,14 +1,114 @@
 <!DOCTYPE html>
-<html>
+<html lang="it, ing">
     <head>
         <meta charset="utf-8">
         <title>Passione HSM</title>
-            <!-- commento Prima metti link bootstrap e font -- >
-        <link rel="stylesheet" type="text/css" href="css/style.css"
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
-<body>
+    <body id="container-fluid">
+        <header>
+            <h1><b>PASSIONE HIGH SCHOOL MUSICAL</b></h1>
+            <nav>
+                <section>
+                <ul>
+                <a class="navigazione active" href="index.html">Home</a>     
+                <a class="dropdown-toggle navigazione" href="film.html"  role="botton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Film
+                </a>
+                <div  class="dropdown-menu" aria-labelledby="#" href="#">
+                    <a class="dropdown-item" href="hsm1F.html">High School Musical 1</a>
+                    <a class="dropdown-item" href="hsm2F.html">HIgh School Musical 2</a>
+                    <a class="dropdown-item" href="hsm3F.html">High School Musical 3</a>
+                </div>
+                <a class="dropdown-toggle navigazione" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Testi
+                </a>
+                <div class="dropdown-menu" aria-labelledby="" href="testi.html">
+                    <a class="dropdown-item" href="hsm1T.html">High School Musical 1</a>
+                    <a class="dropdown-item" href="hsm2T.html">HIgh School Musical 2</a>
+                    <a class="dropdown-item" href="hsm3T.html">High School Musical 3</a>
+                </div>                                  
+                <a class="navigazione" href="karaoke.html">Karaoke</a>
+            </ul>
+            </section>
+            </nav>
+        </header>
+            <section>
+                <div id="carousel inline-block" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block img-fluid" src="immagini/slider/1.png" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block img-fluid" src="immagini/slider/2.png" alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block img-fluid" src="immagini/slider/3.png" alt="Third slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block img-fluid" src="immagini/slider/4.png" alt="Fourth slide">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+            <section id="presentazione">
+                <p>Benvenuti nel sito che vi permetterà di immergervi e di rivivere le emozioni di High School Musical a 360 gradi. L’obiettivo è quello di coinvolgere tutti gli appassionati della saga, concentrando in un unico spazio musica, trame testi e curiosità.</p>
+            </section>
+            <h2>Le più ascoltate</h2>
+            <div class="container text-center">
+                <div class="row" id="riga1">
+                  <div class="col-lg-4 col-md-4 col-sm-4">
+                    <b>Start of something new</b>
+                    <section><img class="canzoni" src="immagini/homepage/We are all in this toghether.jpeg"></section>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4">
+                    <b>Gotta go my own way</b>
+                    <section><img class="canzoni"></section>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4">
+                    <b>Can I have this dance?</b>
+                <section><img class="canzoni"></section>
+                  </div>
+                </div>
+              </div>
 
-
-
-
+              <div class="container text-center" id="riga2">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-4">
+                    <b>Breaking Free</b>
+                    <section><img class="canzoni" src="immagini/homepage/We are all in this toghether.jpeg"></section>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4">
+                    <b>Bet on It</b>
+                    <section><img class="canzoni"></section>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4">
+                    <b>A night to remember</b>
+                <section><img class="canzoni"></section>
+                <section>
+                    per gli elementi sotto
+                </section>
+                  </div>
+                </div>
+              </div>     
+        <footer>
+            <div class="container footer">
+                <div class="row">        
+                <div class="col-lg-6 col-md-6">Iscriviti alla nostra news letter
+                    <section>passione.hsm@gmail.com</section>
+                </div>
+                <div class="col-lg-6 col-md-6">Contattaci al numero</div>
+            </div>
+        </div> 
+        </footer>
+    </body>
 </html>
